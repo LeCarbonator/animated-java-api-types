@@ -51,16 +51,19 @@ declare global {
 	interface _Animation {
 		affected_bones: Array<{ name: string; value: string }>
 		affected_bones_is_a_whitelist: boolean
+		root_transform_xz_teleport: boolean
 	}
 
 	interface AnimationOptions {
 		affected_bones?: Array<{ name: string; value: string }>
 		affected_bones_is_a_whitelist?: boolean
+		root_transform_xz_teleport?: boolean
 	}
 
 	interface AnimationUndoCopy {
 		affected_bones: Array<{ name: string; value: string }>
 		affected_bones_is_a_whitelist: boolean
+		root_transform_xz_teleport: boolean
 	}
 
 	interface Cube {
