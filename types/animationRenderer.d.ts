@@ -25,7 +25,7 @@ declare namespace AnimatedJava {
             animation: string
             executeCondition: string
 		}
-		teleportCommand?: string
+		teleport?: THREE.Vector3
         playSound?: {
             name: string
             category: string
